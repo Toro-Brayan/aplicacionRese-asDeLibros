@@ -1,0 +1,42 @@
+<div class="home-container">
+   <button class="btn btn-secondary" (click)="logout()">Cerrar sesión</button>
+  <h2>Libros</h2>
+  <input
+    type="text"
+    [(ngModel)]="searchText"
+    placeholder="Buscar por título, autor o categoría"
+    class="search-input"
+  />
+
+  <div class="books-grid">
+    <div class="book-card" *ngFor="let book of filteredBooks" (click)="viewDetails(book)">
+      <h3>{{ book.title }}</h3>
+      <p><strong>Autor:</strong> {{ book.author }}</p>
+      <p><strong>Categoría:</strong> {{ book.category }}</p>
+    </div>
+  </div>
+
+  <div class="book-details" *ngIf="selectedBook">
+    <h2>{{ selectedBook.title }}</h2>
+    <p><strong>Autor:</strong> {{ selectedBook.author }}</p>
+    <p><strong>Categoría:</strong> {{ selectedBook.category }}</p>
+    <p>{{ selectedBook.summary }}</p>
+
+    <h3>Reseñas</h3>
+    <div class="reviews">
+      <div *ngFor="let r of reviews">
+        <strong>{{ r.username }}</strong> - {{ r.rating }}/5
+        <p>{{ r.comment }}</p>
+        <small>{{ r.date | date:'short' }}</small>
+      </div>
+    </div>
+
+    <h4>Agregar reseña</h4>
+    <input type="number" [(ngModel)]="rating" min="1" max="5"/>
+    <textarea [(ngModel)]="comment" placeholder="Escribe tu comentario"></textarea>
+    <button (click)="addReview()">Agregar reseña</button>
+  </div>
+
+  
+
+</div>

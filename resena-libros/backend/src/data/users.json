@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "$2b$10$J8XTo3QsD9mI2GBqPhcQ2eVmqfGQbfrG9nHx7c3Ead5sQF5jCZOSi"
+  },
+  {
+    "id": 1758924953451,
+    "username": "vela",
+    "password": "$2a$10$QnvDA0pe5Bod.nc9YQQj5ulHC0W9dId8FYZmA/Lwr885IonZtq9RC"
+  },
+  {
+    "id": 1758928106684,
+    "username": "brayan281322@gmail.com",
+    "password": "$2a$10$sFsh2LNmie8EEdK73T/8ouuQIudoaLXgI0G5RwNtxRvgKPt/Zb.3C"
+  }
+]

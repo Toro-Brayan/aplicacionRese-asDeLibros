@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Ficción",
+    "summary": "Un niño viaja por planetas descubriendo la vida y la amistad."
+  },
+  {
+    "id": 2,
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "category": "Realismo mágico",
+    "summary": "La historia de la familia Buendía en el pueblo de Macondo."
+  }
+]
