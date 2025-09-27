@@ -70,7 +70,7 @@ resena-libros/
 
 1. **Clonar el repositorio:**
 
-git clone https://github.com/tu-usuario/resena-libros.git
+git clone https://github.com/Toro-Brayan/aplicacionRese-asDeLibros.git
 cd resena-libros
 
 #Instalar dependencias del backend:
